@@ -1,0 +1,48 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-server-deployment
+  namespace: web-ns
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: web-server
+  template:
+    metadata:
+      labels:
+        app: web-server
+    spec:
+      containers:
+      - name: web-container
+        image: prime2270/my_first_echo_server_python:1.2
+        env:
+        - name: AUTHOR
+          value: "Konstantin Yakovlev"
+        ports:
+        - containerPort: 8000
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 8000
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 8000
+      imagePullSecrets:
+      - name: regcred
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: web-service
+  namespace: web-ns
+spec:
+  type: ClusterIP
+  selector:
+    app: web-server
+  ports:
+  - port: 80
+    targetPort: 8000

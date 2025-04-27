@@ -1,0 +1,4 @@
+
+echo "nameserver 127.0.0.1" > /etc/resolv.conf
+
+echo "0.0.0.0 *" >> /etc/hosts

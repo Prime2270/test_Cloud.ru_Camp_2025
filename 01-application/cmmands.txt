@@ -1,0 +1,4 @@
+
+sudo docker tag my-server prime2270/my_first_echo_server_python:1.2
+
+sudo docker push my-server prime2270/my_first_echo_server_python:1.2
