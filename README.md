@@ -27,9 +27,9 @@ NAME: Яковлев Константин
 
 Полученный артефакты положить в папку /01-application
 
-```
-[ВЫПОЛНЕНО](#https://github.com/Prime2270/test_Cloud.ru_Camp_2025/tree/main/01-application)
-```
+
+[ВЫПОЛНЕНО](https://github.com/Prime2270/test_Cloud.ru_Camp_2025/tree/main/01-application)
+
 
 ## 2. Ansible playbook или роль
 ### Цель
@@ -48,9 +48,9 @@ NAME: Яковлев Константин
 
 Полученные артефакты положить в папку /02-ansible
 
-```
-[ВЫПОЛНЕНО](#https://github.com/Prime2270/test_Cloud.ru_Camp_2025/tree/main/02-ansible)
-```
+
+[ВЫПОЛНЕНО](https://github.com/Prime2270/test_Cloud.ru_Camp_2025/tree/main/02-ansible)
+
 
 ## 3. Kubernetes manifest
 ### Цель
@@ -70,9 +70,9 @@ NAME: Яковлев Константин
 
 Полученные артефакты положить в папку /03-kubernetes
 
-```
-[ВЫПОЛНЕНО](#https://github.com/Prime2270/test_Cloud.ru_Camp_2025/tree/main/03-kubernetes)
-```
+
+[ВЫПОЛНЕНО](https://github.com/Prime2270/test_Cloud.ru_Camp_2025/tree/main/03-kubernetes)
+
 
 ## 4. Запереть контейнер изнутри* (дополнительное необязательное задание)
 ### Цель
@@ -92,6 +92,6 @@ NAME: Яковлев Константин
 
 Полученные артефакты положить в папку /04-unix
 
-```
-[ВЫПОЛНЕНО](#https://github.com/Prime2270/test_Cloud.ru_Camp_2025/tree/main/04-unix)
-```
+
+[ВЫПОЛНЕНО](https://github.com/Prime2270/test_Cloud.ru_Camp_2025/tree/main/04-unix)
+
